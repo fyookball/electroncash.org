@@ -158,9 +158,5 @@
        id="path846"
        d="M 1828.8,0 V 304.79998 609.59995 914.39992 1219.1999 H 1600.2 1371.6 L 1143,1219.2 H 914.39998 685.79997 457.19996 228.59996 -4.8828126e-5"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       id="path848"
-       d="M -4.8828126e-5,0 V 914.39991 L 457.19994,1219.2 1371.6,1219.1999 1828.8,914.39991 V 0 H -4.8828126e-5"
-       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>
