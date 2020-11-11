@@ -1,2 +1,0 @@
-# electroncash.org
-electroncash.org
