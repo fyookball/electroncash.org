@@ -2176,6 +2176,23 @@ textarea.form-control {
   border-radius: 0.5rem;
 }
 
+.policy {
+	padding-top: calc(3.5rem + 54px) !important;
+}
+
+.policy h1 {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.policy h2 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.policy h3 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 .was-validated :valid ~ .valid-feedback,
 .was-validated :valid ~ .valid-tooltip,
 .is-valid ~ .valid-feedback,
@@ -2415,14 +2432,12 @@ textarea.form-control {
 }
 .btn-masthead {
 	background-color: #0F1820;
+	text-decoration: none !important;
 	color: #FFF;
-	border: none;
 }
 .btn-masthead:hover {
-	background-color: #0F1820 !important;
 	color: #FFF !important;
 	text-decoration: underline !important;
-	border: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -2839,14 +2854,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #fff;
+  border-color: #fff;
 }
-.btn-outline-light:hover {
-  color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+.btn-outline-light:hover{
+  color: #0F1820 !important;
+  background-color: #fff;
+  border-color: #fff;
 }
+
 .btn-outline-light:focus, .btn-outline-light.focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
@@ -6105,25 +6121,33 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0056c0 !important;
+  background-color: #fff !important;
 }
 
 .bg-masthead {
   background: url(../assets/img/header.jpg) no-repeat center center;
-  background-color: transparent !important;
+  background-color: #fff !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+.masthead a {
+	color: #FFF;
+	text-decoration: underline;
+}
+.masthead a:hover {
+	text-decoration: none;
+}
+
 .bg-secondary a {
-	color: #fff !important;
-	text-decoration: underline !important;
+	color: #fff;
+	text-decoration: underline;
 }
 .bg-secondary a:hover {
-	color: #fff !important;
-	text-decoration: none !important;
+	color: #fff;
+	text-decoration: none;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10163,8 +10187,8 @@ h3 {
   }
 }
 .masthead {
-  padding-top: calc(2rem + 94px);
-  padding-bottom: 2rem;
+  padding-top: calc(3.5rem + 94px);
+  padding-bottom: 4rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10180,8 +10204,8 @@ h3 {
 
 @media (min-width: 992px) {
   .masthead {
-    //padding-top: calc(3rem + 94px);
-    //padding-bottom: 3rem;
+    //padding-top: calc(4rem + 94px);
+    //padding-bottom: 4rem;
   }
   .masthead .masthead-heading {
     font-size: 2rem;

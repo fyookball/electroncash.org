@@ -1,0 +1,10 @@
+# General Settings
+title: Electron Cash
+description: "A Bitcoin Cash SPV Wallet"
+author: AqueSun
+ec_version: "4.2.0"
+baseurl: ""
+url: ""
+
+# Build settings
+#markdown: kramdown
