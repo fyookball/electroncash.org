@@ -6105,12 +6105,12 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #fff !important;
+  background-color: #0056c0 !important;
 }
 
 .bg-masthead {
   background: url(../assets/img/header.jpg) no-repeat center center;
-  background-color: #fff !important;
+  background-color: transparent !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
