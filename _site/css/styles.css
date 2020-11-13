@@ -2177,7 +2177,8 @@ textarea.form-control {
 }
 
 .policy {
-	padding-top: calc(3.5rem + 54px) !important;
+	padding-top: calc(1.5rem + 54px) !important;
+  padding-bottom: 3.5rem !important;
 }
 
 .policy h1 {
@@ -3981,7 +3982,7 @@ input[type=button].btn-block {
 	font-size: 1.0rem;
 	padding: 0.5rem;
     text-align: center;
-    overflow: hidden; 
+    overflow: hidden;
 	margin-bottom: 0.5rem;
 	width: 100%;
 	max-width: 50rem;
@@ -10307,9 +10308,14 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
+  background: url(../assets/img/footer.jpg) no-repeat center center;
+  background-color: #0F1820 !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #0F1820;
   color: #fff;
 }
 
